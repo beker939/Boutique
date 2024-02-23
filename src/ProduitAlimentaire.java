@@ -8,7 +8,7 @@ public class ProduitAlimentaire extends Produit {
         this.dateExpiration = dateExpiration;
     }
 
-    @Override
+
     public void afficher() {
         super.afficher();
         System.out.println("Date d'expiration: " + dateExpiration);

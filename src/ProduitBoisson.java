@@ -6,7 +6,6 @@ public class ProduitBoisson extends Produit {
         this.quantite = quantite;
     }
 
-    @Override
     public void afficher() {
         super.afficher();
         System.out.println("Quantite: " + quantite + " cl");

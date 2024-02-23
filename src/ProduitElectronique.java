@@ -6,7 +6,6 @@ public class ProduitElectronique extends Produit {
         this.dureeGarantie = dureeGarantie;
     }
 
-    @Override
     public void afficher() {
         super.afficher();
         System.out.println("Duree de garantie: " + dureeGarantie + " mois");
